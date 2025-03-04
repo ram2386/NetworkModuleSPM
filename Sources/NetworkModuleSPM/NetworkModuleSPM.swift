@@ -3,12 +3,13 @@
 
 import Foundation
 import NetworkFramework
+import UtilityFramework
 
 public class ImplementNetwork1 {
     public init() {}
     
     public func callNetwork() -> String {
         let network = NetworkManager()
-        return "Hello, World!"
+        return UtitliesExample().concatString()
     }
 }

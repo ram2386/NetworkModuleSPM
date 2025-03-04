@@ -17,13 +17,17 @@ let package = Package(
         .target(
             name: "NetworkModuleSPM",
             dependencies: [
-                .target(name: "NetworkFramework")
+                .target(name: "NetworkFramework"),
+                .target(name: "UtilityFramework")
             ]),
         .testTarget(
             name: "NetworkModuleSPMTests",
             dependencies: ["NetworkModuleSPM"]),
         .binaryTarget(
             name: "NetworkFramework",
-            path: "./Sources/NetworkFramework.xcframework")
+            path: "./Sources/NetworkFramework.xcframework"),
+        .binaryTarget(
+            name: "UtilityFramework",
+            path: "./Sources/UtilityFramework.xcframework")
     ]
 )

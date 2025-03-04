@@ -1,0 +1,93 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UtilityFramework",
+    "printedName": "UtilityFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UtilityFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UtitliesExample",
+        "printedName": "UtitliesExample",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UtitliesExample",
+                "printedName": "UtilityFramework.UtitliesExample",
+                "usr": "s:16UtilityFramework15UtitliesExampleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UtilityFramework15UtitliesExampleVACycfc",
+            "mangledName": "$s16UtilityFramework15UtitliesExampleVACycfc",
+            "moduleName": "UtilityFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "concatString",
+            "printedName": "concatString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UtilityFramework15UtitliesExampleV12concatStringSSyF",
+            "mangledName": "$s16UtilityFramework15UtitliesExampleV12concatStringSSyF",
+            "moduleName": "UtilityFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UtilityFramework15UtitliesExampleV",
+        "mangledName": "$s16UtilityFramework15UtitliesExampleV",
+        "moduleName": "UtilityFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
